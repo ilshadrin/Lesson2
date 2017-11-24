@@ -15,27 +15,16 @@ lists_school=[class_1a,class_1b,class_1c]
 
 av_school=0
 for a1 in lists_school:
-    #a1=lists_school[count1]['оценки']
-    #count2=0
     sum1=0
-    #a=0
+    
     for a in a1['оценки']:
-        #print('a', a)
-        #a=a1[count2]
         sum1=sum1+a
-        #count2=count2+1
-        #print('sum ', sum1)
-
-
+    
     av_class=sum1/(len(a1['оценки']))
     av_school=av_school+av_class
 
     print('av_class  ',a1['school_class'], 'Average count ', av_class)
-    #print('av_school ', av_school)
-    #print('a1', a1)
-    #print('count1', count1)
-    #count1=count1+1
-
+   
 av_school_sum=av_school/len(lists_school)
 print('Average for school ', av_school_sum)
 
