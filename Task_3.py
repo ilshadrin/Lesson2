@@ -18,7 +18,7 @@ def ask_user():
                     print('Ну нет, я не это хотел увидеть')
 
             except KeyboardInterrupt:
-               return  print("Неееееет")
+                return  print("Неееееет")
 
 ask_user()
     

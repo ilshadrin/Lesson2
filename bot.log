@@ -1,0 +1,72 @@
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 22, in space
+    logging.info(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 64, in space
+    update.message.reply_text(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 65, in space
+    update.message.reply_text(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 66, in space
+    update.message.reply_text(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 66, in space
+    update.message.reply_text(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 68, in space
+    update.message.reply_text(user_text)
+UnboundLocalError: local variable 'user_text' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/home/ilya/.local/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "Task_4_bot.py", line 70, in space
+    update.message.reply_text(reply_to_user)
+UnboundLocalError: local variable 'reply_to_user' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
